@@ -2,6 +2,7 @@
 list of software:
 ```
 yay -S xorg i3 maim xclip ttf-hack-nerd xborders alacritty rofi rofi-emoji polybar brightnessctl feh picom dunst firefox noto-fonts-cjk noto-fonts-emoji starship blesh-git
+mate-polkit
 ```
 symlink this folder to `~/.config`
 
@@ -20,3 +21,5 @@ audio server: `pulseaudio`
 select `xorg` and `intel` in `archinstall`
 
 `discord` and `spotify` work out of the box since it's X :]
+
+`lxappearance-gtk3` for setting gtk2 and gtk3 theme
