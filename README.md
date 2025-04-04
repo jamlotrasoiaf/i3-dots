@@ -14,4 +14,6 @@ Section "InputClass"
         Option "Tapping" "on"
 EndSection
 ```
+audio server: `pulseaudio`
+select `xorg` and `intel` in `archinstall`
 `discord` and `spotify` work out of the box since it's X :]
