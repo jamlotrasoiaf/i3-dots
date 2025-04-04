@@ -6,3 +6,6 @@ Electron/
 spicetify/
 spotify/
 Vencord/
+dconf/
+user-dirs.dirs
+user-dirs.locale
