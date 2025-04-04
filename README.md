@@ -14,3 +14,4 @@ Section "InputClass"
         Option "Tapping" "on"
 EndSection
 ```
+`discord` and `spotify` work out of the box since it's X :]
