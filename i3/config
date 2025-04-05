@@ -222,7 +222,7 @@ bindsym $mod+Ctrl+n exec dunstctl close
 bindsym $mod+Ctrl+p exec dunstctl history-pop
 
 # Lockscreen
-bindsym $mod+Shift+z exec i3lock -i ~/.config/lockscreen.png
+bindsym $mod+Shift+z exec i3lock -i ~/.config/lockscreen.png & sleep 300 && xset dpms force off
 
 # Gaps
 #smart_gaps on
