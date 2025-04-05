@@ -192,7 +192,7 @@ exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 exec --no-startup-id polybar
 
 # xborder
-exec --no-startup-id xborder
+exec --no-startup-id xborders
 
 # Audio
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%

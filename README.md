@@ -23,3 +23,17 @@ select `xorg` and `intel` in `archinstall`
 `discord` and `spotify` work out of the box since it's X :]
 
 `lxappearance-gtk3` for setting gtk2 and gtk3 theme
+
+for display manager i recommend `ly`
+
+cursor theme and gtk theme included
+
+for cursor theme,extract to `~/.icons` and put in `~/.Xresources`:
+```
+Xcursor.theme = everforest-cursors
+```
+and add this to `~/.xinitrc`:
+```
+xrdb ~/.Xresources
+```
+for gtk theme, extract to `~/.themes` and apply from `lxappearance`
