@@ -39,3 +39,14 @@ and add this to `~/.xinitrc`:
 xrdb ~/.Xresources
 ```
 for gtk theme, extract to `~/.themes` and apply from `lxappearance`
+
+## how to make Persona 4 Golden work
+download `klite.verb`
+```
+curl -OL https://raw.githubusercontent.com/GloriousEggroll/protonfixes/refs/heads/master/verbs/klite.verb
+```
+then execute this:
+```
+winetricks dxvk d3dx11_43 d3dcompiler_43 xact klite.verb wmp9 devenum quartz
+```
+After that persona 4 golden should work
