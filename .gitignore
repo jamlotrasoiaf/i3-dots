@@ -10,3 +10,6 @@ dconf/
 user-dirs.dirs
 user-dirs.locale
 gtk-3.0/
+neofetch/
+hyfetch.json
+
