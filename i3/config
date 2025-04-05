@@ -215,6 +215,9 @@ exec --no-startup-id feh --bg-fill ~/.config/wallpaper.png --image-bg "#21222c"
 # Picom
 exec --no-startup-id picom -f
 
+# snixembed
+exec --no-starup-id snixembed
+
 # Dunst
 exec --no-startup-id dunst
 bindsym $mod+Ctrl+e exec dunstctl action

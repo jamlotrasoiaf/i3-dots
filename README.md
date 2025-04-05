@@ -2,8 +2,10 @@
 list of software:
 ```
 yay -S xorg i3 maim xclip ttf-hack-nerd xborders alacritty rofi rofi-emoji polybar brightnessctl feh picom dunst firefox noto-fonts-cjk noto-fonts-emoji starship blesh-git
-mate-polkit
+mate-polkit snixembed
 ```
+(for some reason i need snixembed to show the discord tray icon)
+
 symlink this folder to `~/.config`
 
 to enable touchpad, make a new file at `/etc/X11/xorg.conf.d/touchpad-tap.conf` and put this:
