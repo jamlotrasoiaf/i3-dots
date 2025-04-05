@@ -1,6 +1,6 @@
 configuration {
 /* Settings */
-modi: "run,window,keys,drun";
+modi: "drun,run,window,keys";
 font: "Hack Nerd Font 12";
 terminal: "kitty";
 sidebar-mode: true;
