@@ -28,7 +28,7 @@ select `xorg` and `intel` in `archinstall`
 
 for display manager i recommend `ly`
 
-cursor theme and gtk theme included
+cursor theme and gtk theme included (select BOTH from lxappearance)
 
 for cursor theme,extract to `~/.icons` and put in `~/.Xresources`:
 ```
@@ -36,9 +36,11 @@ Xcursor.theme = everforest-cursors
 ```
 and add this to `~/.xinitrc`:
 ```
-xrdb ~/.Xresources
+xrandr
+xrdb -merge ~/.Xresources
+exec i3
 ```
-for gtk theme, extract to `~/.themes` and apply from `lxappearance`
+for gtk theme, extract to `~/.themes`
 
 ## how to make Persona 4 Golden work
 download `klite.verb`

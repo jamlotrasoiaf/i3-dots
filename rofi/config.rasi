@@ -2,7 +2,7 @@ configuration {
 /* Settings */
 modi: "drun,run,window,keys";
 font: "Hack Nerd Font 12";
-terminal: "kitty";
+terminal: "alacritty";
 sidebar-mode: true;
 }
 
