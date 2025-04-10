@@ -104,25 +104,25 @@ horizontal_padding = 12
 separator_color = frame
 
 # Browser for opening urls in context menu.
-browser = /usr/bin/google-chrome-stable -new-tab
+browser = /usr/bin/firefox
 
 frame_width = 0
-frame_color = "#5CCC96"
+frame_color = "#8bd5ca"
 
 [urgency_low]
-frame_color = "#d3c6aa"
-foreground = "#d3c6aa"
-background = "#3d484d"
+frame_color = "#cad3f5"
+foreground = "#cad3f5"
+background = "#1e2030"
 timeout = 0
 
 [urgency_normal]
-frame_color = "#d3c6aa"
-foreground = "#d3c6aa"
-background = "#3d484d"
+frame_color = "#cad3f5"
+foreground = "#cad3f5"
+background = "#1e2030"
 timeout = 0
 
 [urgency_critical]
-frame_color = "#e67e80"
-foreground = "#e67e80"
-background = "#3d484d"
+frame_color = "#ed8796"
+foreground = "#ed8796"
+background = "#1e2030"
 timeout = 0
