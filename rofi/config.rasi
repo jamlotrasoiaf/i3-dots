@@ -10,13 +10,13 @@ sidebar-mode: true;
 /* Theme */
 
 * {
-    red:                         rgba ( 220, 50, 47, 100 % );
-    blue:                        rgba ( 38, 139, 210, 100 % );
-    grey:                        #475258;
-    lightfg:                     #7a8478;
-    lightbg:                     #3d484d;
-    foreground:                  #d3c6aa;
-    background:                  #2d353b;
+    red:                         rgb(243, 139, 168, 100%);
+    blue:                        rgb(116, 199, 236, 100%);
+    grey:                        #9399b2;
+    lightfg:                     #cdd6f4;
+    lightbg:                     #1e1e2e;
+    foreground:                  #a6adc8;
+    background:                  #181825;
     background-color:            transparent;
     spacing:                     2;
 
