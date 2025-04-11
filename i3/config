@@ -185,11 +185,17 @@ default_floating_border normal
 
 # Disable title bar
 
-# Polybar
+# snixembed
+exec --no-starup-id snixembed
+
 # exec_always --no-startup-id xrandr --output HDMI-2 --same-as eDP-1
 exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 
-exec --no-startup-id polybar
+# Picom
+exec --no-startup-id picom -f
+
+# Polybar
+exec --no-startup-id ~/.config/polybar/start.sh
 
 # xborder
 exec --no-startup-id xborders
@@ -209,12 +215,6 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 # Background
 exec --no-startup-id feh --bg-fill ~/.config/wallpaper.jpg --image-bg "#21222c"
-
-# Picom
-exec --no-startup-id picom -f
-
-# snixembed
-exec --no-starup-id snixembed
 
 # Dunst
 exec --no-startup-id dunst

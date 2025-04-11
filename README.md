@@ -2,7 +2,7 @@
 list of software:
 ```
 yay -S xorg i3 maim xclip ttf-hack-nerd xborders alacritty rofi rofi-emoji polybar brightnessctl feh picom dunst firefox noto-fonts-cjk noto-fonts-emoji starship blesh-git
-mate-polkit snixembed
+mate-polkit snixembed playerctl
 ```
 (for some reason i need `snixembed` to show the discord tray icon)
 
