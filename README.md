@@ -1,10 +1,10 @@
 # i3-dots
 list of software:
 ```
-yay -S xorg i3 maim xclip ttf-hack-nerd xborders alacritty rofi rofi-emoji polybar brightnessctl feh picom dunst firefox noto-fonts-cjk noto-fonts-emoji starship blesh-git
+paru -S xorg i3 maim xclip ttf-hack-nerd xborders alacritty rofi rofi-emoji polybar brightnessctl feh picom dunst firefox noto-fonts-cjk noto-fonts-emoji starship blesh-git
 mate-polkit snixembed
 ```
-(for some reason i need snixembed to show the discord tray icon)
+(for some reason i need `snixembed` to show the discord tray icon)
 
 symlink this folder to `~/.config`
 
@@ -28,11 +28,20 @@ select `xorg` and `intel` in `archinstall`
 
 for display manager i recommend `ly`
 
-cursor theme and gtk theme included (select BOTH from lxappearance)
+gtk theme: [here](https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme)
 
+qt theme:
+```
+paru -S kvantum-theme-catppuccin-git
+```
+
+cursors:
+```
+curl -OL https://github.com/catppuccin/cursors/releases/download/v2.0.0/catppuccin-mocha-maroon-cursors.zip
+```
 for cursor theme,extract to `~/.icons` and put in `~/.Xresources`:
 ```
-Xcursor.theme = everforest-cursors
+Xcursor.theme = catppuccin-mocha-maroon-cursors
 ```
 and add this to `~/.xinitrc`:
 ```
